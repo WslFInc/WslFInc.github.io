@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<head>
+<script>
+function redirect() {
+	window.location.replace("https://cf-predictor-frontend.herokuapp.com/GetNextRatingServlet" + document.location.search);
+}
+</script>
+</head>
+<body onload="redirect();">
+</body>
